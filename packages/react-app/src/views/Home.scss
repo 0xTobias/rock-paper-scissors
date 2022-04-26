@@ -1,0 +1,24 @@
+.user-bets-container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bets-row {
+    display:flex;
+    margin-bottom: 10px;
+    .round {
+        width: 25%;
+    }
+    
+    .bet {
+        width: 30%;
+    }
+
+    .result {
+        width: 30%;
+    }
+
+    .claim {
+        width: 15%;
+    }
+}
